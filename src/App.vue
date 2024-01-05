@@ -1,21 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ChatRoom  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChatRoom  from './components/ChatRoom.vue'
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    ChatRoom 
   }
 }
 </script>
 
 <style>
-#app {
+#chat-container {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
